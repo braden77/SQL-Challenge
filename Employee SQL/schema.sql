@@ -70,12 +70,7 @@ REFERENCES "titles" ("title_id");
 ALTER TABLE "salaries" ADD CONSTRAINT "fk_salaries_emp-no" FOREIGN KEY("emp_no")
 REFERENCES "employees" ("emp_no");
 
-SELECT * FROM department;
-SELECT * FROM dept_emp;
-SELECT * FROM dept_manager;
-SELECT * FROM employees;
-SELECT * FROM salaries;
-SELECT * FROM titles;
+
 
 
 
