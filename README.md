@@ -6,18 +6,15 @@
 ### Background
 
 * As a new data engineer at Pewlett Hackard, my first major task is a research project on employees of the corporation from the 1980s and 1990s.
-
 * All the data is included in six CSV files. 
-
 * Task 1: Data engineering. 
     * Design the tables to hold data in the CSVs, and import the CSVs into a SQL database
-
 * Task 2: Data analysis. 
     * Answer questions about the data. 
+
 ### Dataset
 
 * Six csv files in the folder of CSVs
-
     * Department name
     * Employees' department
     * Manager of each department
@@ -39,13 +36,10 @@
 ### 2. Creat a table schema for each of the six CSV files. Define data types,   primary keys, foreign keys, and other constraints.
 * Use [QUICK DBD](http://www.quickdatabasediagrams.com) to sketch out ERD
 * Primary keys should be unique, otherwise create a composite key to uniquely identify a row.
-
 * Use PostgreSQL as our database, creat 6 tables using the "schema.sql"
 * Tables should be created in correct order to handle foreign keys.
 * Import each CSV to corresponding SQL table, be sure to import the data in the same order that the tables were creawted and account for the headers when importing to avoid errors.
-
 * All table schema can be found in "schema.sql" file.
-
 <img src = "images/tables.JPG" >
 
 ### 3. Data analysis.
