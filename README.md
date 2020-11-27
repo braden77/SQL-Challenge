@@ -18,12 +18,12 @@
 
 * Six csv files in the folder of CSVs
 
-1. Department name
-2. Employees' department
-3. Manager of each department
-4. Employee personal information
-5. Employee's salary
-6. Title name
+    * Department name
+    * Employees' department
+    * Manager of each department
+    * Employee personal information
+    * Employee's salary
+    * Title name
 
 ### Built With
 
@@ -37,6 +37,7 @@
 <img src = "images/ERD.png" >
 
 ### 2. Creat a table schema for each of the six CSV files. Define data types,   primary keys, foreign keys, and other constraints.
+* Use [QUICK DBD](http://www.quickdatabasediagrams.com) to sketch out ERD
 * Primary keys should be unique, otherwise create a composite key to uniquely identify a row.
 * All table schema can be found in "schema.sql" file.
 * Use PostgreSQL as our database, creat 6 tables using the "schema.sql"
@@ -44,9 +45,33 @@
 * Import each CSV to corresponding SQL table, be sure to import the data in the same order that the tables were creawted and account for the headers when importing to avoid errors.
 <img src = "images/tables.jpg" >
 
-### 3. 
+### 3. Data analysis.
+* List the following details of each employee: employee number, last name, first name, sex, and salary.
+<img src = "images/1.jpg" >
 
-*
+* List first name, last name, and hire date for employees who were hired in 1986.
+<img src = "images/2.jpg" >
+
+* List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
+<img src = "images/3.jpg" >
+
+* List the department of each employee with the following information: employee number, last name, first name, and department name.
+<img src = "images/4.jpg" >
+
+* List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
+<img src = "images/5.jpg" >
+
+* List all employees in the Sales department, including their employee number, last name, first name, and department name.
+<img src = "images/6.jpg" >
+
+* List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+<img src = "images/7.jpg" >
+
+* In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+<img src = "images/8.jpg" >
+
+### 4. Data visualization
+
 
 
 
