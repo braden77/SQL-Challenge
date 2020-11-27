@@ -9,11 +9,11 @@
 
 * All the data is included in six CSV files. 
 
-* Task 1: Data engineering. Design the tables to hold data in the CSVs, and 
-import the CSVs into a SQL database
+* Task 1: Data engineering. 
+    * Design the tables to hold data in the CSVs, and import the CSVs into a SQL database
 
-* Task 2: Data analysis. Answer questions about the data. 
-
+* Task 2: Data analysis. 
+    * Answer questions about the data. 
 ### Dataset
 
 * Six csv files in the folder of CSVs
@@ -36,7 +36,19 @@ import the CSVs into a SQL database
 ### 1. Inspect the CSVs and sketch out an ERD of the tables.
 <img src = "images/ERD.png" >
 
-### 2. 
+### 2. Creat a table schema for each of the six CSV files. Define data types,   primary keys, foreign keys, and other constraints.
+* Primary keys should be unique, otherwise create a composite key to uniquely identify a row.
+* All table schema can be found in "schema.sql" file.
+* Use PostgreSQL as our database, creat 6 tables using the "schema.sql"
+* Tables should be created in correct order to handle foreign keys.
+* Import each CSV to corresponding SQL table, be sure to import the data in the same order that the tables were creawted and account for the headers when importing to avoid errors.
+<img src = "images/tables.jpg" >
+
+### 3. 
+
+*
+
+
 
 
 ## Findings 
