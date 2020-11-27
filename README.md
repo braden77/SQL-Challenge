@@ -12,6 +12,12 @@
 * Task 2: Data analysis. 
     * Answer questions about the data. 
 
+### Built With
+
+* PostgreSQL
+* Python
+* Jupyter Notebook
+
 ### Dataset
 
 * Six csv files in the folder of CSVs
@@ -21,12 +27,6 @@
     * Employee personal information
     * Employee's salary
     * Title name
-
-### Built With
-
-* PostgreSQL
-* Python
-* Jupyter Notebook
 
 ## Procedures
 
