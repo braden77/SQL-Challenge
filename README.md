@@ -39,10 +39,12 @@
 ### 2. Creat a table schema for each of the six CSV files. Define data types,   primary keys, foreign keys, and other constraints.
 * Use [QUICK DBD](http://www.quickdatabasediagrams.com) to sketch out ERD
 * Primary keys should be unique, otherwise create a composite key to uniquely identify a row.
-* All table schema can be found in "schema.sql" file.
+
 * Use PostgreSQL as our database, creat 6 tables using the "schema.sql"
 * Tables should be created in correct order to handle foreign keys.
 * Import each CSV to corresponding SQL table, be sure to import the data in the same order that the tables were creawted and account for the headers when importing to avoid errors.
+
+* All table schema can be found in "schema.sql" file.
 
 <img src = "images/tables.JPG" >
 
@@ -71,18 +73,19 @@
 * In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 <img src = "images/8.JPG" >
 
+* All SQL query code can be found at "query.sql" 
+
 ### 4. Data visualization
 
+* Import the PostgreSQL database into Pandas.
+* Create a histogram to visualize the most common salary ranges for employees.
+<img src = "images/salary.JPG" >
 
+* Create a bar chart of average salary by title.
+<img src = "images/salary_by_title.JPG" >
 
+* All Python code can be found in "data_analysis.ipynb"
 
-
-## Findings 
-#
-
-
-## References
-* []()
 
 
 
