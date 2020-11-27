@@ -43,32 +43,33 @@
 * Use PostgreSQL as our database, creat 6 tables using the "schema.sql"
 * Tables should be created in correct order to handle foreign keys.
 * Import each CSV to corresponding SQL table, be sure to import the data in the same order that the tables were creawted and account for the headers when importing to avoid errors.
-<img src = "images/tables.jpg" >
+
+<img src = "images/tables.JPG" >
 
 ### 3. Data analysis.
 * List the following details of each employee: employee number, last name, first name, sex, and salary.
-<img src = "images/1.jpg" >
+<img src = "images/1.JPG" >
 
 * List first name, last name, and hire date for employees who were hired in 1986.
-<img src = "images/2.jpg" >
+<img src = "images/2.JPG" >
 
 * List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
-<img src = "images/3.jpg" >
+<img src = "images/3.JPG" >
 
 * List the department of each employee with the following information: employee number, last name, first name, and department name.
-<img src = "images/4.jpg" >
+<img src = "images/4.JPG" >
 
 * List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
-<img src = "images/5.jpg" >
+<img src = "images/5.JPG" >
 
 * List all employees in the Sales department, including their employee number, last name, first name, and department name.
-<img src = "images/6.jpg" >
+<img src = "images/6.JPG" >
 
 * List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-<img src = "images/7.jpg" >
+<img src = "images/7.JPG" >
 
 * In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
-<img src = "images/8.jpg" >
+<img src = "images/8.JPG" >
 
 ### 4. Data visualization
 
@@ -77,41 +78,11 @@
 
 
 ## Findings 
-### 1. Statistical summary (full table in Jupyter notebook)
-   <img src = "images/ERD.png" >
-
-### 2. Distribution of each attribute value 
-   <img src = "images/distribution.png" >
-
-### 3. Correlation coefficients matrix
-  * 3 paris of strong correlation
-  * "PURCHASES" and "ONEOFF_PURCHASES" -- 0.92
-  * "PURCHASES_FREQUENCY" and 'PURCHASES_INSTALLMENT_FREQUENCY' --0.86
-  * "CASH_ADVANCE_TRX" and "CASH_ADVANCE_FREQUENCY" --0.8
-  <img src = "images/correlation.png" >
-
-### 4. Divide customres into 8 clusters according to "Elblow Method"
-  <img src = "images/elbow.png" >
-
-### 5. Statistical summary for each cluster (full table in Jupyter notebook)
-  <img src = "images/clusters.JPG" >
-
-  * Credit card issuers usually have more interests in "Transactors" and "Revolvers"
-  * Cluster 6 belongs to "Transactors": Those are customers who pay least amount of intrerest charges and careful with their money, Cluster with lowest balance ($104) and cash advance ($303), Percentage of full payment = 23%
-  * Cluster 0 belongs to "Revolvers" who use credit card as a loan (most lucrative sector): high balance (more than $5000) and cash advance (more than$5000), low purchase frequency, high cash advance frequency (0.52), high cash advance transactions (16) and low percentage of full payment (3.8%)
-
-### 6. Visualizations of balance distribution for each cluster (distribution for other attributes can be found in Jupyter notebook)
-
-  <img src = "images/cluster_plot.png" >
-
-### 7. Visualize the clusters in 2-axies plane
-  <img src = "images/2_axes_plane.png" >
-
-## Raw Data Explanation
+#
 
 
 ## References
-* [Market Segmentation from Wikipedia](https://en.wikipedia.org/wiki/Market_segmentation)
+* []()
 
 
 
